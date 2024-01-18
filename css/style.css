@@ -6,12 +6,45 @@ body {
 
 header {
     text-align: center;
-    background-color: #4F6F52;
-    color: #ECE3CE;
-    font-size: larger;
+    background-color: #FFC5C5;
+    width: 100%;
 }
 
-header h1 span {
-    color: red;
+div.head {
+    text-align: center;
+    margin: 70px;
+    line-height: 30px;
 }
 
+.container {
+    display: flex;
+    margin: 30px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.container p.formula {
+    text-align: center;
+}
+
+.container-perimeter, .container-area {
+    width: 50%;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin: 20px;
+  }
+
+footer {
+    text-align: center;
+    background-color: #FFC5C5;
+    margin-top: 20px;
+}

@@ -3,17 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="mathematics.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Dudee Math ➗</title>
-    
+    <title>Dudee Math</title>
+    <link rel="icon" href="mathematics.png" type="image" sizes="16x16">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-    <header>
-    <h1><span>dudee.</span>math.</h1>
-    <p><i>learn mathematics is fun......</i></p>
-    </header>
-    
+
+        <header>
+        <h1><span>Dudee.</span>Math.</h1>
+        <i>learn mathematics <span>is fun.....</span></i>
+        </header>
+
+        
+        <div class="head">
+            <h1>Welcome To Dudee Math..</h1>
+            <p>Selamat Datang Sobat di Dudee Math ....</p>
+            <p>Sebuah web apps sederhana untuk menghitung lebar dan keliling bangun ruang.</p>
+        </div>
+        
+
+    <div class="container">
+        <div class="container-perimeter">
+            <h1>Keliing Persegi</h1>
+            <img src="./img/Persegi.png" alt="square">
+            <p>Keliling Persegi adalah sebagai berikut:</p>
+            <p class="formula"><b>K = 4 x S</b></p>
+            <p>Ket : <br>
+            <i>K : Keliling<br>
+            S : Sisi</i></p>
+            <label for="sideLength">Panjang Sisi</label><br>
+            <input type="text" id="sideLength" placeholder="Enter side length"><br>
+            <button onclick="calculate()">Hitung</button>
+            <p id="result">Result:</p>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+        <div class="container-area">
+            <h1>Luas Persegi</h1>
+            <img src="./img/Persegi.png" alt="square">
+            <p>Luas Persegi adalah sebagai berikut:</p>
+            <p class="formula"><b>L = S x S</b></p>
+            <p>Ket : <br>
+            <i>K : Keliling <br>
+            S : Sisi</i></p>
+            <label for="sideLength">Panjang Sisi</label><br>
+            <input type="text" id="sideLength" placeholder="Enter side length"><br>
+            <button onclick="calculate()">Hitung</button>
+            <p id="result">Result:</p>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <footer> @2023 . @AndhikaJr </footer>
 
 </body>
+<script src="js/script.js"></script>
 </html>
